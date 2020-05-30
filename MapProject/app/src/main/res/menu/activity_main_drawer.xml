@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_reviews"
+            android:icon="@drawable/review"
+            android:title="@string/menu_reviews" />
+        <item
+            android:id="@+id/nav_near"
+            android:icon="@drawable/near_me_black_36dp"
+            android:title="@string/menu_near" />
+        <item
+            android:id="@+id/nav_spot"
+            android:icon="@drawable/ic_star_white_36dp"
+            android:title="@string/menu_spot" />
+        <item
+            android:id="@+id/nav_number"
+            android:icon="@drawable/help"
+            android:title="@string/menu_numbers" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/message_black_36dp"
+            android:title="@string/menu_feedback" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/info"
+            android:title="@string/menu_info" />
+    </group>
+</menu>

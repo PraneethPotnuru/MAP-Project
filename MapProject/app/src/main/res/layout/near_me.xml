@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#00F48694"
+        android:fontFamily="@font/poppins_bold"
+        android:drawableLeft="@drawable/ic_hotel_36dp"
+        android:padding="12dp"
+        android:text="Hotels"
+        android:textColor="#333"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#00F48694"
+        android:fontFamily="@font/poppins_bold"
+        android:padding="12dp"
+        android:drawableLeft="@drawable/ic_local_hospital_36dp"
+        android:text="Hospitals"
+        android:textColor="#333"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        tools:layout_editor_absoluteX="130dp" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#00F48694"
+        android:drawableLeft="@drawable/ic_local_atm_black_36dp"
+        android:fontFamily="@font/poppins_bold"
+        android:padding="12dp"
+        android:text="ATM"
+        android:textColor="#333"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#00F48694"
+        android:fontFamily="@font/poppins_bold"
+        android:drawableLeft="@drawable/ic_shopping_basket_36dp"
+        android:padding="12dp"
+        android:text="Shopping"
+        android:textColor="#333"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="207dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="568dp"
+        android:src="@drawable/bermuda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

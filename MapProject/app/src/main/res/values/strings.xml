@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MapProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_reviews">View Reviews</string>
+    <string name="menu_near">Near Me</string>
+    <string name="menu_spot">Tourist Spot</string>
+    <string name="menu_numbers">Hepline Numbers</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_info">Info</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
